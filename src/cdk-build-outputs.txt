@@ -1,0 +1,7 @@
+DevhourSeries1Stack.Bucket = devhourseries1stack-cdkreknimgagebucketabe44d40-16z9cio78l6o5
+DevhourSeries1Stack.BucketURL = devhourseries1stack-cdkreknpublicbucket22d34a6d-fj1smnqyo6s1.s3-website-ap-southeast-2.amazonaws.com
+DevhourSeries1Stack.IdentityPoolId = ap-southeast-2:33f5fa6a-60ad-45f4-9c17-36167b51f818
+DevhourSeries1Stack.Table = DevhourSeries1Stack-ImageLabelsE524135D-1A8I9QDP60LSI
+DevhourSeries1Stack.UserPoolClientId = 7g7f1lrdu22svvee0huif24p90
+DevhourSeries1Stack.UserPoolId = ap-southeast-2_xY2W87I9o
+DevhourSeries1Stack.imageAPIEndpointD64DB231 = https://mjd74rbtu4.execute-api.ap-southeast-2.amazonaws.com/prod/

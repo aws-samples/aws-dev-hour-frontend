@@ -1,0 +1,104 @@
+h1 {
+  font-size: 2em;
+}
+
+.product-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.product-id {
+  font-size: .8em;
+  margin: 1em 0;
+}
+
+.product-edit-icon {
+  opacity: .7;
+  position: absolute;
+  right: 2.3rem;
+  top: .4rem;
+}
+
+.product-edit-icon:hover {
+  opacity: 1;
+}
+
+.navbar, .navbar-end, .navbar-menu, .navbar-start {
+  align-items: stretch !important;
+  display: flex !important;
+}
+
+.navbar-menu {
+  flex-grow: 1 !important;
+  flex-shrink: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.navbar-item {
+  display: flex !important;
+}
+
+.navbar-end {
+  justify-content: flex-end !important;
+  margin-left: auto !important;
+}
+
+.features {
+  padding-bottom: 3em;
+}
+
+body {
+  visibility: visible !important;
+}
+
+
+.auth form {
+  margin-top: 1em;
+  max-width: 50%;
+}
+
+.buttons {
+  margin-left: 1em;
+}
+
+.hero.is-primary {
+  background-color: #000000;
+}
+
+.button.is-primary {
+  background-color: #ff9900;
+}
+
+/* Below this line - Image CSS from original page */
+
+.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  }
+  .thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+  }
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
+
+
+.panel-body { height:500px; width: 250px; padding-bottom: 50px; }
+
+    /* Modify image panel sizing */
+
+.panel-default {
+  border-color: #ddd;
+  padding-bottom: 40px;
+}
