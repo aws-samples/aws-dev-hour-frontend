@@ -8,6 +8,8 @@ import './App.css';
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Photos from './components/photos/Photos';
+import PhotosAdmin from './components/PhotosAdmin';
 import ProfileAdmin from './components/ProfileAdmin';
 import LogIn from './components/auth/LogIn';
 import Register from './components/auth/Register';
@@ -129,7 +131,10 @@ class App extends Component {
             <Switch>
               <Route exact path="/" render={(props) => <Home {...props} auth={authProps} />} />
               {/* <Route exact path="/products" render={(props) => <Products {...props} auth={authProps} />} /> */}
+              <ProtectedRoute path="/photos" loggedIn={this.state.isAuthenticated} verified={this.state.isVerified} component={Photos} />
+              <ProtectedRoute path="/admin" loggedIn={this.state.isAuthenticated} verified={this.state.isVerified} component={PhotosAdmin} />
               <ProtectedRoute path="/profile" loggedIn={this.state.isAuthenticated} verified={this.state.isVerified} component={ProfileAdmin} />
+              <Route exact path="/admin" render={(props) => <PhotosAdmin {...props} auth={authProps} />} />
               <Route exact path="/login" render={(props) => <LogIn {...props} auth={authProps} handleLogIn={this.handleLogIn} />} />
               <Route exact path="/verify" render={(props) => <VerifyAccount {...props} auth={authProps} />} />
               <Route exact path="/resendverification" render={(props) => <ResendVerification {...props} auth={authProps} />} />

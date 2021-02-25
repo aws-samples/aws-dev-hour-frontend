@@ -17,6 +17,12 @@ export default class Navbar extends Component {
             <a href="/" className="navbar-item">
               Home
             </a>
+            <a href="/photos" className="navbar-item">
+              Photos
+            </a>
+            <a href="/admin" className="navbar-item">
+              Admin
+            </a>
             <a href="/profile" className="navbar-item">
               Profile
             </a>
@@ -26,7 +32,7 @@ export default class Navbar extends Component {
             <div className="navbar-item">
               {isAuthenticated && user && (
                 <p>
-                  Logged in as: {user.username}
+                  Cognito ID: {user.username}
                 </p>
               )}
               <div className="buttons">
