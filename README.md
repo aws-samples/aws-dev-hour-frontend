@@ -39,11 +39,18 @@ When you deploy the back-end using the AWS Cloud Development Kit (CDK), you will
 
 ```json
 {
+  "api": {
+    "invokeUrl": "https://123456789.execute-api.ap-southeast-2.amazonaws.com/prod"
+  },
   "cognito": {
-    "REGION": "your-region-goes-here",
-    "USER_POOL_ID": "your-DevhourSeries1Stack.UserPoolId-output-goes-here",
-    "APP_CLIENT_ID": "your-DevhourSeries1Stack.AppClientId-output-goes-here",
-    "IDENTITY_POOL_ID": "your-DevhourSeries1Stack.IdentityPoolId-output-goes-here"
+    "REGION": "ap-southeast-2",
+    "USER_POOL_ID": "ap-southeast-2_abcdefgh",
+    "APP_CLIENT_ID": "abcdefghijklmnopqrstuvwqyz",
+    "IDENTITY_POOL_ID": "ap-southeast-2:ab12345-a123-b123-c123-123456789"
+  },
+  "s3": {
+    "bucket": "devhourseries1stack-cdkreknimagebucket12345-123456789",
+    "thumbBucket": "devhourseries1stack-cdkreknimagebucketresized12345-123456789"
   }
 }
 ```
