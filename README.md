@@ -7,7 +7,7 @@ Do you have the skills it takes to build modern applications that are distribute
 
 
 ## Architecture
-<img width="1042" alt="architecture-screenshot" src="https://awsdevhour.s3-accelerate.amazonaws.com/architecture.jpg">
+<img width="1042" alt="architecture-screenshot" src="https://awsdevhour-twitch.s3.ap-southeast-2.amazonaws.com/architecture.jpg">
 
 ## Episodes
 
